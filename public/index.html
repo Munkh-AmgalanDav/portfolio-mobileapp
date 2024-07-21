@@ -11,8 +11,8 @@
 <body>
     <div class="mobileapp">
         <div class="brightnening-icons">
-            <img class="icon-dark" src="brghtchange-icon.png" alt="">
-            <img class="icon-light" src="Btn Change-theme.png" alt="">
+            <img onclick="myFunction()" class="icon-dark" src="brghtchange-icon.png" alt="">
+            <img onclick="myFunction()" class="icon-light" src="Btn Change-theme.png" alt="">
 
         </div>
         <div class="profileinfo">
@@ -88,3 +88,9 @@
 
 
     </div>
+    <script>
+        function myFunction() {
+            let element = document.body;
+            element.classList.toggle("dark");
+        }
+    </script>

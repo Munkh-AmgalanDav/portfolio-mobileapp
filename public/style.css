@@ -9,7 +9,60 @@ body {
 .mobileapp {
     margin: auto;
 }
-
+.dark{
+    background-color: rgba(12, 21, 29, 1);
+    .icon-light {
+        display: none;
+       
+    }
+    .icon-dark {
+        display: block;
+    }
+    .introduction>h3 {
+        color: rgba(241, 242, 244, 1);
+        
+    }
+    .introduction>p {
+        color: rgba(163, 171, 178, 1);
+    }
+    .socialmedia-icon-light{
+        display: none;
+    }
+    .socialmedia-icon-dark{
+        display: block;  
+    }
+    .profile-facts {
+        color: rgba(163, 171, 178, 1);
+    }
+    .button2 {
+        background: rgba(23, 31, 38, 1);
+    }
+    
+    .button2>button {
+        color: rgba(163, 171, 178, 1);
+    }
+    .switch {
+        background-color: rgba(23, 31, 38, 1);
+    }
+    
+    button.black {
+        color: rgba(163, 171, 178, 1);
+        background: rgba(12, 21, 29, 1);
+        border: rgba(12, 21, 29, 1);
+    
+    }
+    
+    button.gray {
+        color: rgba(163, 171, 178, 1);
+        background: rgba(23, 31, 38, 1);
+        border: rgba(23, 31, 38, 1);
+    }
+    .footer{
+        color: rgba(163, 171, 178, 1);
+    }
+    
+    
+}
 
 .brightnening-icons {
     text-align: center;
@@ -25,9 +78,7 @@ body {
 .profileinfo {
     text-align: center;
 }
-.introduction{
-    
-}
+
 
 .introduction>h3 {
     color: rgba(241, 242, 244, 1);
